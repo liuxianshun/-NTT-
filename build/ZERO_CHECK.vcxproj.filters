@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\期末考试\并行计算——研一下\并行计算-cursor\build\CMakeFiles\9f9b998aa6a48e72b422db548a21fed0\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{167C62CE-AC65-3050-83E5-431EF5AA97E1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
