@@ -1,0 +1,12 @@
+problem,variant,n,threads,schedule,simd,alignment,ms,checksum
+direct,scalar,1024,1,none,none,none,2.8400,15802920392851731211
+direct,manual-avx2,1024,1,none,avx2,unaligned,1.1900,15802920392851731211
+direct,openmp-output,1024,4,static,auto,none,0.9100,15802920392851731211
+direct,openmp-output,1024,4,dynamic,auto,none,1.1200,15802920392851731211
+ntt,single-mod-scalar,16384,1,static,auto,none,8.7200,1452194042835982924
+ntt,single-mod-openmp,16384,4,static,auto,none,3.0500,1452194042835982924
+ntt,single-mod-openmp,16384,8,static,auto,none,2.3700,1452194042835982924
+ntt,single-mod-openmp,16384,8,dynamic,auto,none,3.1100,1452194042835982924
+crt,three-mod-task,16384,4,static,auto,none,8.8200,1294532169405394401
+crt,three-mod-task,16384,8,static,auto,none,5.7400,1294532169405394401
+crt,three-mod-task,16384,8,dynamic,auto,none,6.6800,1294532169405394401
